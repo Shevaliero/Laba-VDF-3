@@ -1,0 +1,128 @@
+#id1 {
+  background: url(../img/cat.png);
+}
+
+.colortxt {
+  color: red;
+}
+
+#id2 {
+  color: peru;
+}
+
+[specatr] {
+  color: purple;
+}
+
+* {
+  color: green;
+}
+
+div {
+  color: aqua !important;
+}
+
+div {
+  color: crimson !important;
+}
+
+h1 {
+  color: orange;
+}
+
+.dwtxt {
+  color: blue;
+}
+
+.uptxt {
+  color: cyan;
+}
+
+h2 {
+  color: darkorange;
+}
+
+@media (max-width: 800px) {
+  .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 100%;
+    color: red;
+    background-color: gray;
+  }
+}
+
+@media (max-width: 400px) {
+  .titl2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: #add6fd;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .title {
+    color: white;
+  }
+  .abr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: thistle;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+}
+
+.mainwrap {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+footer {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  background-color: black;
+}
+
+body .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  color: blue;
+}
+
+.wrap div {
+  background-color: thistle;
+}
+/*# sourceMappingURL=style.css.map */
